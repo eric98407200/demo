@@ -1,0 +1,19 @@
+2023-07-27T09:46:58.996+08:00  INFO 5832 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 5832 (C:\Users\eric9\eclipse-workspace\demo\target\classes started by eric9 in C:\Users\eric9\eclipse-workspace\demo)
+2023-07-27T09:46:58.999+08:00 DEBUG 5832 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-27T09:46:59.000+08:00  INFO 5832 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-07-27T09:46:59.861+08:00  INFO 5832 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.135 seconds (process running for 1.546)
+2023-07-27T10:29:12.955+08:00  INFO 12756 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 12756 (C:\Users\eric9\eclipse-workspace\demo\target\classes started by eric9 in C:\Users\eric9\eclipse-workspace\demo)
+2023-07-27T10:29:12.956+08:00 DEBUG 12756 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-27T10:29:12.958+08:00  INFO 12756 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-07-27T10:29:13.831+08:00  INFO 12756 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.187 seconds (process running for 1.64)
+2023-07-27T10:31:22.306+08:00  INFO 9460 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 9460 (C:\Users\eric9\eclipse-workspace\demo\target\classes started by eric9 in C:\Users\eric9\eclipse-workspace\demo)
+2023-07-27T10:31:22.308+08:00 DEBUG 9460 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-27T10:31:22.308+08:00  INFO 9460 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-07-27T10:31:23.134+08:00  INFO 9460 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.12 seconds (process running for 1.525)
+2023-07-27T10:32:35.293+08:00  INFO 11420 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 11420 (C:\Users\eric9\eclipse-workspace\demo\target\classes started by eric9 in C:\Users\eric9\eclipse-workspace\demo)
+2023-07-27T10:32:35.295+08:00 DEBUG 11420 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.1.1, Spring v6.0.10
+2023-07-27T10:32:35.295+08:00  INFO 11420 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-07-27T10:32:36.073+08:00  INFO 11420 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.059 seconds (process running for 1.466)
+2023-07-27T11:00:12.313+08:00  INFO 5544 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 5544 (C:\Users\eric9\eclipse-workspace\demo\target\classes started by eric9 in C:\Users\eric9\eclipse-workspace\demo)
+2023-07-27T11:00:12.314+08:00  INFO 5544 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "pro"
+2023-07-27T11:00:13.080+08:00  INFO 5544 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 1.049 seconds (process running for 1.449)

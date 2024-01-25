@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+book: 
+  name: "bookName"
+  author: "bookAuthor"
+  descript: ${book.author}_description;
+  uuid: ${random.uuid}
+    
+    
+# application-{}.yml
