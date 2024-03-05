@@ -43,7 +43,7 @@ public interface NoticeRepository extends JpaRepository<Notice, Long>{
 	
 	List<Notice> findByTitleAndContent(String title, String content);
 	 
-	//JPQL、SQL自定義更新(使用:XXX或?數字來呼叫)
+	//JPQL、SQL自定義更新(使用:XXX或?數字來呼叫) PS:適用於不同資料庫語言
 	@Query("SELECT n FROM Notice n where n.title LIKE %?1%")
 	List<Notice> findByJPQL(String str);
 	

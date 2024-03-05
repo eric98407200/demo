@@ -52,7 +52,6 @@
 						    	even/odd : 偶數 奇數
 						    	first/last: 判斷第一/最後回布林
 						     -->
-						     
 						    <tbody th:id="responseList" >
 						        <tr style="height:46px;" th:fragment="response" th:each="note, status : ${noticeList}" th:class="${status.even} ?e-tr">
 						            <td style="text-align:center" th:text="${status.count}">index</td>
@@ -161,6 +160,7 @@
 			    },
 			    success: function(data) {
 	// 		    	alert(data);
+					alert('刪除成功!');
 	                $('#responseList').html(data);
 	            },
 			    error: function(error) {
@@ -172,7 +172,14 @@
 	
 	 function actionM(id, status) {
 		let userName = [[${user}]];
-		let statusStr = status == 0 ? '待辦' : '完成';
+		let statusStr = '';
+		
+		if(status == 0){
+			statusStr = '待辦';
+		}else{
+			statusStr = '完成';
+		}
+		
 		if(confirm('確定要改為' + statusStr + '?')){
 			$.ajax({
 			    type: 'PUT',
@@ -183,6 +190,7 @@
 			    },
 			    success: function(data) {
 	// 		    	alert(data);
+					alert('變更成功!');
 	                $('#responseList').html(data);
 	            },
 			    error: function(error) {

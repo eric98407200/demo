@@ -92,7 +92,11 @@ public class NoticeController {
 		//格式轉換
 		String updateTime = dateFormat.format(currentDate);
 		//狀態變更
-		status = status == 0 ? 1 : 0;
+		if(status == 0) {
+			status = 1;
+		}else {
+			status = 0;
+		}
 		//DB處裡
 		noticeService.updateStatusById(id, status, updateTime, user);
 		
