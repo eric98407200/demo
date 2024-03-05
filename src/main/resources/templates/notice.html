@@ -62,8 +62,8 @@
 						            <td style="text-align:center" th:if="${note.status == 1}">待辦</td>
 						            <td style="text-align:center" th:if="${note.status == 0}">完成</td>
 						            <td style="text-align:center">
-	           				    		<button th:onclick="actionM([[${note.id}]],[[${note.status}]])" type="button" class="button2">變更</button>
-	           				    		<button th:onclick="actionD([[${note.id}]])" type="button" class="button22">刪除</button>
+	           				    		<button th:onclick="actionM([[${note.id}]],[[${note.status}]],[[${note.user}]])" type="button" class="button2">變更</button>
+	           				    		<button th:onclick="actionD([[${note.id}]],[[${note.user}]])" type="button" class="button22">刪除</button>
 						            </td>
 						        </tr>
 						    </tbody>
@@ -149,14 +149,14 @@
 		$('#content').val('');
 	}
 	
-	function actionD(id) {
-		let userName = [[${user}]];
+	function actionD(id, user) {
+// 		let userName = [[${user}]];
 		if(confirm('確定刪除?')){
 			$.ajax({
 			    type: 'DELETE',
 			    url: '/notice/' + id,
 			    data: {
-			        user : userName
+			        user : user
 			    },
 			    success: function(data) {
 	// 		    	alert(data);
@@ -170,8 +170,8 @@
 		}
 	} 
 	
-	 function actionM(id, status) {
-		let userName = [[${user}]];
+	 function actionM(id, status, user) {
+// 		let userName = [[${user}]];
 		let statusStr = '';
 		
 		if(status == 0){
@@ -186,7 +186,7 @@
 			    url: '/notice/' + id,
 			    data: {
 			        status: status,
-			        user : userName
+			        user : user
 			    },
 			    success: function(data) {
 	// 		    	alert(data);
