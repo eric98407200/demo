@@ -44,7 +44,7 @@ public class NoticeController {
 		return "notice";
 	}
 	
-	//依照標題及基本條件查出單/多待辦	
+	//依照標題及基本條件查出單/多待辦	測試GIT
 	@PostMapping("/notice/search")
 	public String getNotice(@RequestParam String searchStr, @RequestParam String user, Model model) {
 		List<Notice> noticeList = new ArrayList<>();
