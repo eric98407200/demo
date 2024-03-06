@@ -3,7 +3,7 @@
 ### 框架　　 : spring boot 
 ### 設計風格 : restful api
 ### 前端模板 : thymeleaf 
-### 前後端連線:AJAX
+### 連線方式 :AJAX
 ### 使用DB　 : MySQL 
 ### DB連線　: JPA
 ### 畫面預覽 :
